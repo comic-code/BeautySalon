@@ -37,7 +37,13 @@ const swiper = new Swiper('.swiper', {
   },
   mousewheel: true,
   keyboard: true,
-  loop: true
+  loop: true,
+  breakpoints: {
+    767: {
+      slidesPerView: 2,
+      setWrapperSize: true
+    }
+  }
 })
 
 // ScrollReveal
