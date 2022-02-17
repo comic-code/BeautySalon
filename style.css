@@ -499,6 +499,8 @@ footer .social a:hover {
   opacity: 0;
   transition: 0.3s;
   transform: translateY(100%);
+  border: 2px solid var(--body-color);
+  border-radius: 500px;
 }
 
 .back-to-top.show {
